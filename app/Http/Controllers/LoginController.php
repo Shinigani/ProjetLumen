@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
+
 class LoginController extends Controller
 {
     /**
@@ -16,14 +18,15 @@ class LoginController extends Controller
 
     public function login()
     {
-    	if(isset($_GET['login']) && isset($_GET['pass']) && $_GET['login'] == 'root' and $_GET['pass'] == "0000")
+    	if(isset($_GET['login']) && isset($_GET['pass']))
     	{
-    		$return = 1;
+    		$return = User::login($_GET['login'],$_GET['pass']);
     	}
     	else
     	{
     		$return = 0;
     	}
+
         return $return;
     }
 
