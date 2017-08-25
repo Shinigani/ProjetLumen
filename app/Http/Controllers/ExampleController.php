@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
+
 class ExampleController extends Controller
 {
     /**
@@ -16,7 +18,8 @@ class ExampleController extends Controller
 
     public function index()
     {
-        return json_encode(App\User::all());
+        $test = User::login("root","0000");
+        return json_encode($test);
     }
 
     //
