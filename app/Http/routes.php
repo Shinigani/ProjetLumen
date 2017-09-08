@@ -17,6 +17,15 @@ $app->get('/', function () use ($app) {
 
 $app->get('hello','ExampleController@index');
 
-$app->post('login','LoginController@login');
 
+// Login
+// Request post :
+// 	login => 'admin', pass => '0000'
+//	retourne 1 si le couple existe dans la db, 0 sinon
+$app->post('login','UserController@login');
 
+// Register - Insere une ligne dans la table user
+// Request post :
+// 	login => 'admin', pass => '0000', email => 'test@test.fr'
+//	retourn 0 si ok, un message d'erreur sinon
+$app->post('register','UserController@register');
