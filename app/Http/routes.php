@@ -28,8 +28,4 @@ $app->post('login','UserController@login');
 // Request post :
 // 	login => 'admin', pass => '0000', email => 'test@test.fr'
 //	retourn 0 si ok, un message d'erreur sinon
-<<<<<<< HEAD
 $app->post('register','UserController@register');
-=======
-$app->post('register','UserController@register');
->>>>>>> 8e566135623e72670d30d64319f719c973a14f93

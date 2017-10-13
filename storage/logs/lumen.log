@@ -791,3 +791,8 @@ Stack trace:
 #2 {main}  
 =======
 >>>>>>> 8e566135623e72670d30d64319f719c973a14f93
+[2017-10-13 09:52:12] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<<' (T_SL)' in /var/www/html/Projet/ProblemsCommunity/app/Http/routes.php:31
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
