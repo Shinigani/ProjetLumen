@@ -6,29 +6,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
-    public static function get($login,$pass,$email)
+    public $table = "post";
+
+    public static function getFullPostById($idPost)
     {
-    	$count = User::whereRaw('pseudoUser = ? or emailUser = ?', [$login, $email])->count();
+    	$post = Post::whereRaw('idPost = ?', [$idPost])->first();
 
-    	if($count > 0)
-    	{
-    		$return = "email ou pseudo existe deja";
-    	}
-    	else
-		{
-	        User::insert(
-		        [
-		        	"pseudoUser" => $login,
-		        	"passwordUser" => $pass,
-		        	"emailUser" => $email
-		        ]
-	        );
-
-	        $return = 1;
-	    }
-
-	    return $return;
-
+	    return $post;
     }
+
+
 
 }

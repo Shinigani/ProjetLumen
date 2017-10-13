@@ -29,3 +29,6 @@ $app->post('login','UserController@login');
 // 	login => 'admin', pass => '0000', email => 'test@test.fr'
 //	retourn 0 si ok, un message d'erreur sinon
 $app->post('register','UserController@register');
+
+$app->post('post/{id}', 'PostController@getFullPostById');
+$app->post('posts', 'PostController@getList');
