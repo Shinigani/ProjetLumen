@@ -1,0 +1,790 @@
+[2017-08-25 09:46:05] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\ExampleController does not exist' in /var/www/html/projet/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('App\Http\Contro...')
+#1 /var/www/html/projet/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('App\Http\Contro...', Array)
+#2 /var/www/html/projet/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('App\Http\Contro...', Array)
+#3 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('App\Http\Contro...')
+#4 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2017-08-25 09:46:35] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\ExampleController does not exist' in /var/www/html/projet/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('App\Http\Contro...')
+#1 /var/www/html/projet/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('App\Http\Contro...', Array)
+#2 /var/www/html/projet/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('App\Http\Contro...', Array)
+#3 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('App\Http\Contro...')
+#4 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2017-08-25 09:46:36] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\ExampleController does not exist' in /var/www/html/projet/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('App\Http\Contro...')
+#1 /var/www/html/projet/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('App\Http\Contro...', Array)
+#2 /var/www/html/projet/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('App\Http\Contro...', Array)
+#3 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('App\Http\Contro...')
+#4 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2017-08-25 09:46:36] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\ExampleController does not exist' in /var/www/html/projet/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('App\Http\Contro...')
+#1 /var/www/html/projet/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('App\Http\Contro...', Array)
+#2 /var/www/html/projet/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('App\Http\Contro...', Array)
+#3 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('App\Http\Contro...')
+#4 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2017-08-25 09:46:36] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\ExampleController does not exist' in /var/www/html/projet/vendor/illuminate/container/Container.php:734
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/container/Container.php(734): ReflectionClass->__construct('App\Http\Contro...')
+#1 /var/www/html/projet/vendor/illuminate/container/Container.php(629): Illuminate\Container\Container->build('App\Http\Contro...', Array)
+#2 /var/www/html/projet/vendor/laravel/lumen-framework/src/Application.php(206): Illuminate\Container\Container->make('App\Http\Contro...', Array)
+#3 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(538): Laravel\Lumen\Application->make('App\Http\Contro...')
+#4 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2017-08-25 10:00:13] lumen.ERROR: exception 'ErrorException' with message 'Undefined index: login' in /var/www/html/projet/app/Http/Controllers/LoginController.php:19
+Stack trace:
+#0 /var/www/html/projet/app/Http/Controllers/LoginController.php(19): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined index...', '/var/www/html/p...', 19, Array)
+#1 [internal function]: App\Http\Controllers\LoginController->login()
+#2 /var/www/html/projet/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\LoginController), 'login', Array)
+#6 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2017-08-25 10:02:27] lumen.ERROR: exception 'ErrorException' with message 'Missing argument 1 for App\Http\Controllers\LoginController::login()' in /var/www/html/projet/app/Http/Controllers/LoginController.php:17
+Stack trace:
+#0 /var/www/html/projet/app/Http/Controllers/LoginController.php(17): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'Missing argumen...', '/var/www/html/p...', 17, Array)
+#1 [internal function]: App\Http\Controllers\LoginController->login()
+#2 /var/www/html/projet/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\LoginController), 'login', Array)
+#6 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2017-08-25 10:07:47] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\Request does not exist' in /var/www/html/projet/vendor/illuminate/container/Container.php:572
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/container/Container.php(572): ReflectionParameter->getClass()
+#1 /var/www/html/projet/vendor/illuminate/container/Container.php(533): Illuminate\Container\Container->addDependencyForCallParameter(Object(ReflectionParameter), Array, Array)
+#2 /var/www/html/projet/vendor/illuminate/container/Container.php(505): Illuminate\Container\Container->getMethodDependencies(Array, Array)
+#3 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\LoginController), 'login', Array)
+#6 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2017-08-25 10:09:04] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\Request does not exist' in /var/www/html/projet/vendor/illuminate/container/Container.php:572
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/container/Container.php(572): ReflectionParameter->getClass()
+#1 /var/www/html/projet/vendor/illuminate/container/Container.php(533): Illuminate\Container\Container->addDependencyForCallParameter(Object(ReflectionParameter), Array, Array)
+#2 /var/www/html/projet/vendor/illuminate/container/Container.php(505): Illuminate\Container\Container->getMethodDependencies(Array, Array)
+#3 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\LoginController), 'login', Array)
+#6 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2017-08-25 10:09:17] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\Request does not exist' in /var/www/html/projet/vendor/illuminate/container/Container.php:572
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/container/Container.php(572): ReflectionParameter->getClass()
+#1 /var/www/html/projet/vendor/illuminate/container/Container.php(533): Illuminate\Container\Container->addDependencyForCallParameter(Object(ReflectionParameter), Array, Array)
+#2 /var/www/html/projet/vendor/illuminate/container/Container.php(505): Illuminate\Container\Container->getMethodDependencies(Array, Array)
+#3 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\LoginController), 'login', Array)
+#6 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2017-08-25 10:09:18] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\Request does not exist' in /var/www/html/projet/vendor/illuminate/container/Container.php:572
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/container/Container.php(572): ReflectionParameter->getClass()
+#1 /var/www/html/projet/vendor/illuminate/container/Container.php(533): Illuminate\Container\Container->addDependencyForCallParameter(Object(ReflectionParameter), Array, Array)
+#2 /var/www/html/projet/vendor/illuminate/container/Container.php(505): Illuminate\Container\Container->getMethodDependencies(Array, Array)
+#3 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\LoginController), 'login', Array)
+#6 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2017-08-25 10:09:29] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\Request does not exist' in /var/www/html/projet/vendor/illuminate/container/Container.php:572
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/container/Container.php(572): ReflectionParameter->getClass()
+#1 /var/www/html/projet/vendor/illuminate/container/Container.php(533): Illuminate\Container\Container->addDependencyForCallParameter(Object(ReflectionParameter), Array, Array)
+#2 /var/www/html/projet/vendor/illuminate/container/Container.php(505): Illuminate\Container\Container->getMethodDependencies(Array, Array)
+#3 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\LoginController), 'login', Array)
+#6 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2017-08-25 10:09:43] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\Request does not exist' in /var/www/html/projet/vendor/illuminate/container/Container.php:572
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/container/Container.php(572): ReflectionParameter->getClass()
+#1 /var/www/html/projet/vendor/illuminate/container/Container.php(533): Illuminate\Container\Container->addDependencyForCallParameter(Object(ReflectionParameter), Array, Array)
+#2 /var/www/html/projet/vendor/illuminate/container/Container.php(505): Illuminate\Container\Container->getMethodDependencies(Array, Array)
+#3 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#4 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\LoginController), 'login', Array)
+#6 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#12 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2017-08-25 10:35:25] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\Flight' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:19
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 10:37:01] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:19
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 10:37:02] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:19
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 10:37:02] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:19
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 10:37:02] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:19
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 10:37:02] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:19
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 10:37:03] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:19
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:17:50] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:19
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:17:51] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:19
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:17:51] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:19
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:18:09] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:19
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:18:09] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:19
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:18:09] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:19
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:18:21] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:19
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:18:45] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:21
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:18:46] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:21
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:18:46] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:21
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:18:46] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:21
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:19:36] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:21
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:19:48] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:23
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:19:48] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:23
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:19:49] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:23
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:20:23] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:23
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:21:51] lumen.ERROR: exception 'PDOException' with message 'could not find driver' in /var/www/html/projet/vendor/illuminate/database/Connectors/Connector.php:55
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/database/Connectors/Connector.php(55): PDO->__construct('mysql:host=127....', 'root', '0000', Array)
+#1 /var/www/html/projet/vendor/illuminate/database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#2 /var/www/html/projet/vendor/illuminate/database/Connectors/ConnectionFactory.php(61): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#4 /var/www/html/projet/vendor/illuminate/database/Connection.php(924): call_user_func(Object(Closure))
+#5 /var/www/html/projet/vendor/illuminate/database/Connection.php(792): Illuminate\Database\Connection->getPdo()
+#6 /var/www/html/projet/vendor/illuminate/database/Connection.php(677): Illuminate\Database\Connection->reconnectIfMissingConnection()
+#7 /var/www/html/projet/vendor/illuminate/database/Connection.php(349): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#8 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1610): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#9 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1596): Illuminate\Database\Query\Builder->runSelect()
+#10 /var/www/html/projet/vendor/illuminate/database/Eloquent/Builder.php(625): Illuminate\Database\Query\Builder->get(Array)
+#11 /var/www/html/projet/vendor/illuminate/database/Eloquent/Builder.php(316): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#12 /var/www/html/projet/vendor/illuminate/database/Eloquent/Model.php(649): Illuminate\Database\Eloquent\Builder->get(Array)
+#13 /var/www/html/projet/app/Http/Controllers/ExampleController.php(21): Illuminate\Database\Eloquent\Model::all()
+#14 [internal function]: App\Http\Controllers\ExampleController->index()
+#15 /var/www/html/projet/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#16 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#17 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#18 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\ExampleController), 'index', Array)
+#19 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#20 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#21 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#22 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#23 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#24 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#25 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#26 {main}  
+[2017-08-25 13:21:55] lumen.ERROR: exception 'PDOException' with message 'could not find driver' in /var/www/html/projet/vendor/illuminate/database/Connectors/Connector.php:55
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/database/Connectors/Connector.php(55): PDO->__construct('mysql:host=127....', 'root', '0000', Array)
+#1 /var/www/html/projet/vendor/illuminate/database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#2 /var/www/html/projet/vendor/illuminate/database/Connectors/ConnectionFactory.php(61): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#4 /var/www/html/projet/vendor/illuminate/database/Connection.php(924): call_user_func(Object(Closure))
+#5 /var/www/html/projet/vendor/illuminate/database/Connection.php(792): Illuminate\Database\Connection->getPdo()
+#6 /var/www/html/projet/vendor/illuminate/database/Connection.php(677): Illuminate\Database\Connection->reconnectIfMissingConnection()
+#7 /var/www/html/projet/vendor/illuminate/database/Connection.php(349): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#8 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1610): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#9 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1596): Illuminate\Database\Query\Builder->runSelect()
+#10 /var/www/html/projet/vendor/illuminate/database/Eloquent/Builder.php(625): Illuminate\Database\Query\Builder->get(Array)
+#11 /var/www/html/projet/vendor/illuminate/database/Eloquent/Builder.php(316): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#12 /var/www/html/projet/vendor/illuminate/database/Eloquent/Model.php(649): Illuminate\Database\Eloquent\Builder->get(Array)
+#13 /var/www/html/projet/app/Http/Controllers/ExampleController.php(21): Illuminate\Database\Eloquent\Model::all()
+#14 [internal function]: App\Http\Controllers\ExampleController->index()
+#15 /var/www/html/projet/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#16 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#17 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#18 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\ExampleController), 'index', Array)
+#19 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#20 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#21 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#22 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#23 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#24 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#25 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#26 {main}  
+[2017-08-25 13:28:20] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\User' not found' in /var/www/html/projet/app/Http/Controllers/ExampleController.php:21
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:34:50] lumen.ERROR: exception 'BadMethodCallException' with message 'Call to undefined method Illuminate\Database\Query\Builder::test()' in /var/www/html/projet/vendor/illuminate/database/Query/Builder.php:2405
+Stack trace:
+#0 [internal function]: Illuminate\Database\Query\Builder->__call('test', Array)
+#1 [internal function]: Illuminate\Database\Query\Builder->test()
+#2 /var/www/html/projet/vendor/illuminate/database/Eloquent/Builder.php(1426): call_user_func_array(Array, Array)
+#3 [internal function]: Illuminate\Database\Eloquent\Builder->__call('test', Array)
+#4 [internal function]: Illuminate\Database\Eloquent\Builder->test()
+#5 /var/www/html/projet/vendor/illuminate/database/Eloquent/Model.php(3526): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Model->__call('test', Array)
+#7 [internal function]: App\User->test()
+#8 /var/www/html/projet/vendor/illuminate/database/Eloquent/Model.php(3540): call_user_func_array(Array, Array)
+#9 /var/www/html/projet/app/Http/Controllers/ExampleController.php(21): Illuminate\Database\Eloquent\Model::__callStatic('test', Array)
+#10 /var/www/html/projet/app/Http/Controllers/ExampleController.php(21): App\User::test()
+#11 [internal function]: App\Http\Controllers\ExampleController->index()
+#12 /var/www/html/projet/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#13 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#14 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#15 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\ExampleController), 'index', Array)
+#16 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#17 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#18 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#19 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#20 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#21 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#22 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#23 {main}  
+[2017-08-25 13:35:17] lumen.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'loginuser' in 'where clause'' in /var/www/html/projet/vendor/illuminate/database/Connection.php:333
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/database/Connection.php(333): PDO->prepare('select count(*)...')
+#1 /var/www/html/projet/vendor/illuminate/database/Connection.php(722): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select count(*)...', Array)
+#2 /var/www/html/projet/vendor/illuminate/database/Connection.php(685): Illuminate\Database\Connection->runQueryCallback('select count(*)...', Array, Object(Closure))
+#3 /var/www/html/projet/vendor/illuminate/database/Connection.php(349): Illuminate\Database\Connection->run('select count(*)...', Array, Object(Closure))
+#4 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1610): Illuminate\Database\Connection->select('select count(*)...', Array, true)
+#5 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1596): Illuminate\Database\Query\Builder->runSelect()
+#6 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(2002): Illuminate\Database\Query\Builder->get(Array)
+#7 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1924): Illuminate\Database\Query\Builder->aggregate('count', Array)
+#8 [internal function]: Illuminate\Database\Query\Builder->count()
+#9 /var/www/html/projet/vendor/illuminate/database/Eloquent/Builder.php(1423): call_user_func_array(Array, Array)
+#10 /var/www/html/projet/app/User.php(11): Illuminate\Database\Eloquent\Builder->__call('count', Array)
+#11 /var/www/html/projet/app/User.php(11): Illuminate\Database\Eloquent\Builder->count()
+#12 /var/www/html/projet/app/Http/Controllers/ExampleController.php(21): App\User::login('root', '0000')
+#13 [internal function]: App\Http\Controllers\ExampleController->index()
+#14 /var/www/html/projet/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#15 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#16 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#17 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\ExampleController), 'index', Array)
+#18 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#19 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#20 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#21 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#22 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#23 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#24 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#25 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'loginuser' in 'where clause' (SQL: select count(*) as aggregate from `users` where loginuser = root and passwordUser = 0000)' in /var/www/html/projet/vendor/illuminate/database/Connection.php:729
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/database/Connection.php(685): Illuminate\Database\Connection->runQueryCallback('select count(*)...', Array, Object(Closure))
+#1 /var/www/html/projet/vendor/illuminate/database/Connection.php(349): Illuminate\Database\Connection->run('select count(*)...', Array, Object(Closure))
+#2 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1610): Illuminate\Database\Connection->select('select count(*)...', Array, true)
+#3 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1596): Illuminate\Database\Query\Builder->runSelect()
+#4 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(2002): Illuminate\Database\Query\Builder->get(Array)
+#5 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1924): Illuminate\Database\Query\Builder->aggregate('count', Array)
+#6 [internal function]: Illuminate\Database\Query\Builder->count()
+#7 /var/www/html/projet/vendor/illuminate/database/Eloquent/Builder.php(1423): call_user_func_array(Array, Array)
+#8 /var/www/html/projet/app/User.php(11): Illuminate\Database\Eloquent\Builder->__call('count', Array)
+#9 /var/www/html/projet/app/User.php(11): Illuminate\Database\Eloquent\Builder->count()
+#10 /var/www/html/projet/app/Http/Controllers/ExampleController.php(21): App\User::login('root', '0000')
+#11 [internal function]: App\Http\Controllers\ExampleController->index()
+#12 /var/www/html/projet/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#13 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#14 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#15 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\ExampleController), 'index', Array)
+#16 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#17 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#18 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#19 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#20 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#21 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#22 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#23 {main}  
+[2017-08-25 13:35:26] lumen.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'loginUser' in 'where clause'' in /var/www/html/projet/vendor/illuminate/database/Connection.php:333
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/database/Connection.php(333): PDO->prepare('select count(*)...')
+#1 /var/www/html/projet/vendor/illuminate/database/Connection.php(722): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select count(*)...', Array)
+#2 /var/www/html/projet/vendor/illuminate/database/Connection.php(685): Illuminate\Database\Connection->runQueryCallback('select count(*)...', Array, Object(Closure))
+#3 /var/www/html/projet/vendor/illuminate/database/Connection.php(349): Illuminate\Database\Connection->run('select count(*)...', Array, Object(Closure))
+#4 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1610): Illuminate\Database\Connection->select('select count(*)...', Array, true)
+#5 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1596): Illuminate\Database\Query\Builder->runSelect()
+#6 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(2002): Illuminate\Database\Query\Builder->get(Array)
+#7 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1924): Illuminate\Database\Query\Builder->aggregate('count', Array)
+#8 [internal function]: Illuminate\Database\Query\Builder->count()
+#9 /var/www/html/projet/vendor/illuminate/database/Eloquent/Builder.php(1423): call_user_func_array(Array, Array)
+#10 /var/www/html/projet/app/User.php(11): Illuminate\Database\Eloquent\Builder->__call('count', Array)
+#11 /var/www/html/projet/app/User.php(11): Illuminate\Database\Eloquent\Builder->count()
+#12 /var/www/html/projet/app/Http/Controllers/ExampleController.php(21): App\User::login('root', '0000')
+#13 [internal function]: App\Http\Controllers\ExampleController->index()
+#14 /var/www/html/projet/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#15 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#16 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#17 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\ExampleController), 'index', Array)
+#18 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#19 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#20 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#21 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#22 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#23 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#24 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#25 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'loginUser' in 'where clause' (SQL: select count(*) as aggregate from `users` where loginUser = root and passwordUser = 0000)' in /var/www/html/projet/vendor/illuminate/database/Connection.php:729
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/database/Connection.php(685): Illuminate\Database\Connection->runQueryCallback('select count(*)...', Array, Object(Closure))
+#1 /var/www/html/projet/vendor/illuminate/database/Connection.php(349): Illuminate\Database\Connection->run('select count(*)...', Array, Object(Closure))
+#2 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1610): Illuminate\Database\Connection->select('select count(*)...', Array, true)
+#3 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1596): Illuminate\Database\Query\Builder->runSelect()
+#4 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(2002): Illuminate\Database\Query\Builder->get(Array)
+#5 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1924): Illuminate\Database\Query\Builder->aggregate('count', Array)
+#6 [internal function]: Illuminate\Database\Query\Builder->count()
+#7 /var/www/html/projet/vendor/illuminate/database/Eloquent/Builder.php(1423): call_user_func_array(Array, Array)
+#8 /var/www/html/projet/app/User.php(11): Illuminate\Database\Eloquent\Builder->__call('count', Array)
+#9 /var/www/html/projet/app/User.php(11): Illuminate\Database\Eloquent\Builder->count()
+#10 /var/www/html/projet/app/Http/Controllers/ExampleController.php(21): App\User::login('root', '0000')
+#11 [internal function]: App\Http\Controllers\ExampleController->index()
+#12 /var/www/html/projet/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#13 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#14 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#15 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\ExampleController), 'index', Array)
+#16 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#17 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#18 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#19 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#20 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#21 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#22 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#23 {main}  
+[2017-08-25 13:35:27] lumen.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'loginUser' in 'where clause'' in /var/www/html/projet/vendor/illuminate/database/Connection.php:333
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/database/Connection.php(333): PDO->prepare('select count(*)...')
+#1 /var/www/html/projet/vendor/illuminate/database/Connection.php(722): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select count(*)...', Array)
+#2 /var/www/html/projet/vendor/illuminate/database/Connection.php(685): Illuminate\Database\Connection->runQueryCallback('select count(*)...', Array, Object(Closure))
+#3 /var/www/html/projet/vendor/illuminate/database/Connection.php(349): Illuminate\Database\Connection->run('select count(*)...', Array, Object(Closure))
+#4 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1610): Illuminate\Database\Connection->select('select count(*)...', Array, true)
+#5 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1596): Illuminate\Database\Query\Builder->runSelect()
+#6 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(2002): Illuminate\Database\Query\Builder->get(Array)
+#7 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1924): Illuminate\Database\Query\Builder->aggregate('count', Array)
+#8 [internal function]: Illuminate\Database\Query\Builder->count()
+#9 /var/www/html/projet/vendor/illuminate/database/Eloquent/Builder.php(1423): call_user_func_array(Array, Array)
+#10 /var/www/html/projet/app/User.php(11): Illuminate\Database\Eloquent\Builder->__call('count', Array)
+#11 /var/www/html/projet/app/User.php(11): Illuminate\Database\Eloquent\Builder->count()
+#12 /var/www/html/projet/app/Http/Controllers/ExampleController.php(21): App\User::login('root', '0000')
+#13 [internal function]: App\Http\Controllers\ExampleController->index()
+#14 /var/www/html/projet/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#15 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#16 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#17 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\ExampleController), 'index', Array)
+#18 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#19 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#20 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#21 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#22 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#23 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#24 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#25 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'loginUser' in 'where clause' (SQL: select count(*) as aggregate from `users` where loginUser = root and passwordUser = 0000)' in /var/www/html/projet/vendor/illuminate/database/Connection.php:729
+Stack trace:
+#0 /var/www/html/projet/vendor/illuminate/database/Connection.php(685): Illuminate\Database\Connection->runQueryCallback('select count(*)...', Array, Object(Closure))
+#1 /var/www/html/projet/vendor/illuminate/database/Connection.php(349): Illuminate\Database\Connection->run('select count(*)...', Array, Object(Closure))
+#2 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1610): Illuminate\Database\Connection->select('select count(*)...', Array, true)
+#3 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1596): Illuminate\Database\Query\Builder->runSelect()
+#4 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(2002): Illuminate\Database\Query\Builder->get(Array)
+#5 /var/www/html/projet/vendor/illuminate/database/Query/Builder.php(1924): Illuminate\Database\Query\Builder->aggregate('count', Array)
+#6 [internal function]: Illuminate\Database\Query\Builder->count()
+#7 /var/www/html/projet/vendor/illuminate/database/Eloquent/Builder.php(1423): call_user_func_array(Array, Array)
+#8 /var/www/html/projet/app/User.php(11): Illuminate\Database\Eloquent\Builder->__call('count', Array)
+#9 /var/www/html/projet/app/User.php(11): Illuminate\Database\Eloquent\Builder->count()
+#10 /var/www/html/projet/app/Http/Controllers/ExampleController.php(21): App\User::login('root', '0000')
+#11 [internal function]: App\Http\Controllers\ExampleController->index()
+#12 /var/www/html/projet/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#13 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#14 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#15 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\ExampleController), 'index', Array)
+#16 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#17 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#18 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#19 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#20 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#21 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#22 /var/www/html/projet/public/index.php(28): Laravel\Lumen\Application->run()
+#23 {main}  
+[2017-08-25 13:41:07] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}'' in /var/www/html/projet/app/Http/Controllers/LoginController.php:22
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-08-25 13:41:17] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\User' not found' in /var/www/html/projet/app/Http/Controllers/LoginController.php:21
+Stack trace:
+#0 /var/www/html/projet/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 08:11:44] lumen.ERROR: exception 'PDOException' with message 'could not find driver' in /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/Connector.php:55
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/Connector.php(55): PDO->__construct('mysql:host=127....', 'root', '0000', Array)
+#1 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#2 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/ConnectionFactory.php(61): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#4 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(924): call_user_func(Object(Closure))
+#5 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(792): Illuminate\Database\Connection->getPdo()
+#6 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(677): Illuminate\Database\Connection->reconnectIfMissingConnection()
+#7 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(349): Illuminate\Database\Connection->run('select count(*)...', Array, Object(Closure))
+#8 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(1610): Illuminate\Database\Connection->select('select count(*)...', Array, true)
+#9 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(1596): Illuminate\Database\Query\Builder->runSelect()
+#10 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(2002): Illuminate\Database\Query\Builder->get(Array)
+#11 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(1924): Illuminate\Database\Query\Builder->aggregate('count', Array)
+#12 [internal function]: Illuminate\Database\Query\Builder->count()
+#13 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Eloquent/Builder.php(1423): call_user_func_array(Array, Array)
+#14 /var/www/html/Projet/ProblemsCommunity/app/User.php(11): Illuminate\Database\Eloquent\Builder->__call('count', Array)
+#15 /var/www/html/Projet/ProblemsCommunity/app/User.php(11): Illuminate\Database\Eloquent\Builder->count()
+#16 /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/ExampleController.php(21): App\User::login('root', '0000')
+#17 [internal function]: App\Http\Controllers\ExampleController->index()
+#18 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#19 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#20 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#21 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\ExampleController), 'index', Array)
+#22 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#23 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#24 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#25 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#26 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#27 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#28 /var/www/html/Projet/ProblemsCommunity/public/index.php(28): Laravel\Lumen\Application->run()
+#29 {main}  
+[2017-10-13 08:11:52] lumen.ERROR: exception 'PDOException' with message 'could not find driver' in /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/Connector.php:55
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/Connector.php(55): PDO->__construct('mysql:host=127....', 'root', '0000', Array)
+#1 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#2 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/ConnectionFactory.php(61): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#4 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(924): call_user_func(Object(Closure))
+#5 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(792): Illuminate\Database\Connection->getPdo()
+#6 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(677): Illuminate\Database\Connection->reconnectIfMissingConnection()
+#7 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(349): Illuminate\Database\Connection->run('select count(*)...', Array, Object(Closure))
+#8 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(1610): Illuminate\Database\Connection->select('select count(*)...', Array, true)
+#9 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(1596): Illuminate\Database\Query\Builder->runSelect()
+#10 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(2002): Illuminate\Database\Query\Builder->get(Array)
+#11 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(1924): Illuminate\Database\Query\Builder->aggregate('count', Array)
+#12 [internal function]: Illuminate\Database\Query\Builder->count()
+#13 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Eloquent/Builder.php(1423): call_user_func_array(Array, Array)
+#14 /var/www/html/Projet/ProblemsCommunity/app/User.php(11): Illuminate\Database\Eloquent\Builder->__call('count', Array)
+#15 /var/www/html/Projet/ProblemsCommunity/app/User.php(11): Illuminate\Database\Eloquent\Builder->count()
+#16 /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/ExampleController.php(21): App\User::login('root', '0000')
+#17 [internal function]: App\Http\Controllers\ExampleController->index()
+#18 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#19 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#20 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#21 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\ExampleController), 'index', Array)
+#22 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#23 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#24 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#25 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#26 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#27 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#28 /var/www/html/Projet/ProblemsCommunity/public/index.php(28): Laravel\Lumen\Application->run()
+#29 {main}  
+[2017-10-13 08:13:04] lumen.ERROR: exception 'PDOException' with message 'could not find driver' in /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/Connector.php:55
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/Connector.php(55): PDO->__construct('mysql:host=127....', 'root', '0000', Array)
+#1 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#2 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/ConnectionFactory.php(61): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#4 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(924): call_user_func(Object(Closure))
+#5 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(792): Illuminate\Database\Connection->getPdo()
+#6 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(677): Illuminate\Database\Connection->reconnectIfMissingConnection()
+#7 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(349): Illuminate\Database\Connection->run('select count(*)...', Array, Object(Closure))
+#8 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(1610): Illuminate\Database\Connection->select('select count(*)...', Array, true)
+#9 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(1596): Illuminate\Database\Query\Builder->runSelect()
+#10 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(2002): Illuminate\Database\Query\Builder->get(Array)
+#11 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(1924): Illuminate\Database\Query\Builder->aggregate('count', Array)
+#12 [internal function]: Illuminate\Database\Query\Builder->count()
+#13 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Eloquent/Builder.php(1423): call_user_func_array(Array, Array)
+#14 /var/www/html/Projet/ProblemsCommunity/app/User.php(11): Illuminate\Database\Eloquent\Builder->__call('count', Array)
+#15 /var/www/html/Projet/ProblemsCommunity/app/User.php(11): Illuminate\Database\Eloquent\Builder->count()
+#16 /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/ExampleController.php(21): App\User::login('root', '0000')
+#17 [internal function]: App\Http\Controllers\ExampleController->index()
+#18 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#19 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#20 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#21 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\ExampleController), 'index', Array)
+#22 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#23 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#24 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#25 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#26 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#27 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#28 /var/www/html/Projet/ProblemsCommunity/public/index.php(28): Laravel\Lumen\Application->run()
+#29 {main}  
+[2017-10-13 08:14:21] lumen.ERROR: exception 'PDOException' with message 'could not find driver' in /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/Connector.php:55
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/Connector.php(55): PDO->__construct('mysql:host=127....', 'root', '0000', Array)
+#1 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#2 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connectors/ConnectionFactory.php(61): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#4 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(924): call_user_func(Object(Closure))
+#5 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(792): Illuminate\Database\Connection->getPdo()
+#6 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(677): Illuminate\Database\Connection->reconnectIfMissingConnection()
+#7 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Connection.php(349): Illuminate\Database\Connection->run('select count(*)...', Array, Object(Closure))
+#8 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(1610): Illuminate\Database\Connection->select('select count(*)...', Array, true)
+#9 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(1596): Illuminate\Database\Query\Builder->runSelect()
+#10 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(2002): Illuminate\Database\Query\Builder->get(Array)
+#11 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Query/Builder.php(1924): Illuminate\Database\Query\Builder->aggregate('count', Array)
+#12 [internal function]: Illuminate\Database\Query\Builder->count()
+#13 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/database/Eloquent/Builder.php(1423): call_user_func_array(Array, Array)
+#14 /var/www/html/Projet/ProblemsCommunity/app/User.php(11): Illuminate\Database\Eloquent\Builder->__call('count', Array)
+#15 /var/www/html/Projet/ProblemsCommunity/app/User.php(11): Illuminate\Database\Eloquent\Builder->count()
+#16 /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/ExampleController.php(21): App\User::login('root', '0000')
+#17 [internal function]: App\Http\Controllers\ExampleController->index()
+#18 /var/www/html/Projet/ProblemsCommunity/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#19 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(603): Illuminate\Container\Container->call(Array, Array)
+#20 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(570): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#21 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(543): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\ExampleController), 'index', Array)
+#22 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(511): Laravel\Lumen\Application->callControllerAction(Array)
+#23 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(496): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#24 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(393): Laravel\Lumen\Application->handleFoundRoute(Array)
+#25 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(643): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#26 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(399): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#27 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(340): Laravel\Lumen\Application->dispatch(NULL)
+#28 /var/www/html/Projet/ProblemsCommunity/public/index.php(28): Laravel\Lumen\Application->run()
+#29 {main}  
+[2017-10-13 09:24:45] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\User' not found' in /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/UserController.php:23
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:24:46] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\User' not found' in /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/UserController.php:23
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:25:05] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'User' not found' in /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/UserController.php:23
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:25:06] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'User' not found' in /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/UserController.php:23
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:25:19] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '/', expecting ',' or ';'' in /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/UserController.php:5
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:25:20] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '/', expecting ',' or ';'' in /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/UserController.php:5
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:25:35] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\Model\User' not found' in /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/UserController.php:23
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:25:36] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\Model\User' not found' in /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/UserController.php:23
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:25:53] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '/', expecting ',' or ';'' in /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/UserController.php:5
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:25:54] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '/', expecting ',' or ';'' in /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/UserController.php:5
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:26:39] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '/', expecting ',' or ';'' in /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/UserController.php:5
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:27:14] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '/', expecting ',' or ';'' in /var/www/html/Projet/ProblemsCommunity/app/Model/User.php:5
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:27:45] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '/', expecting ',' or ';'' in /var/www/html/Projet/ProblemsCommunity/app/User.php:5
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:27:50] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '/', expecting ',' or ';'' in /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/UserController.php:5
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:27:51] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '/', expecting ',' or ';'' in /var/www/html/Projet/ProblemsCommunity/app/Http/Controllers/UserController.php:5
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:27:56] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '/', expecting ',' or ';'' in /var/www/html/Projet/ProblemsCommunity/app/User.php:5
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2017-10-13 09:27:59] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '/', expecting ',' or ';'' in /var/www/html/Projet/ProblemsCommunity/app/User.php:5
+Stack trace:
+#0 /var/www/html/Projet/ProblemsCommunity/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
